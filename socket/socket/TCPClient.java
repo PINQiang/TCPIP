@@ -12,7 +12,7 @@ public class TCPClient{
 		}catch(UnknownHostException e){
 			e.printStackTrace();
 		} */
-		//Socket s=new Socket(remoteAddress,6666,localAddress,6666);
+		
 		//Socket s=new Socket(localAddress,6666);
 		Socket s=new Socket("127.3.2.3",6666);
 		OutputStream os = s.getOutputStream();
